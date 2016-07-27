@@ -1,3 +1,10 @@
+# Quick start
+
+```
+git clone --depth 1 git@github.com:nkt1546789/weightress.git
+python weightress.py "url"
+```
+
 # Usage
 Weightress assign weights to DOM elements such as texts and images.
 Each weight represents the importance of the corresponding DOM element.
@@ -17,7 +24,7 @@ for text, weight in sorted(h, key=lambda x:x[1], reverse=True)[:10]:
     print text, weight
 ```
 
-## images
+## Images
 You can obtain weighted image src list like this:
 
 ```python
